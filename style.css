@@ -75,3 +75,9 @@
     background-color: #f44336;
     color: white;
   }
+  .header {
+    background-color: #4ea53c;
+    padding: 30px 40px;
+    color: white;
+   text-align: center;
+  }
