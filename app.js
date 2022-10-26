@@ -7,6 +7,14 @@ for (i = 0; i < myNodelist.length; i++) {
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
 }
+
+var list = document.querySelector('ul');
+  list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+      ev.target.classList.toggle('checked');
+    }
+  }, false);
+
 var close = document.getElementsByClassName("close");
   var i;
   for (i = 0; i < close.length; i++) {
@@ -15,3 +23,4 @@ var close = document.getElementsByClassName("close");
       div.style.display = "none";
     }
   }
+
