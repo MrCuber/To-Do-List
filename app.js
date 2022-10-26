@@ -7,7 +7,6 @@ for (i = 0; i < myNodelist.length; i++) {
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
 }
-<<<<<<< HEAD
 
 var list = document.querySelector('ul');
   list.addEventListener('click', function(ev) {
@@ -15,7 +14,7 @@ var list = document.querySelector('ul');
       ev.target.classList.toggle('checked');
     }
   }, false);
-=======
+
 var close = document.getElementsByClassName("close");
   var i;
   for (i = 0; i < close.length; i++) {
@@ -24,4 +23,4 @@ var close = document.getElementsByClassName("close");
       div.style.display = "none";
     }
   }
->>>>>>> 0df68bc3adda7943b03faaedcf3d14e611876400
+
